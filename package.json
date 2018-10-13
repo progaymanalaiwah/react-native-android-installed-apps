@@ -1,0 +1,34 @@
+{
+  "name": "react-native-android-installed-apps",
+  "version": "1.0.0",
+  "description": "API to retrieve installed  apps information  using native built-ins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "android",
+    "installed",
+    "apps",
+    "packeges",
+    "applications"
+  ],
+  "author": {
+    "name": "Ayman Alaiwah",
+    "email": "aymanalaiwah.dev@gmail.com",
+    "url": "https://github.com/progaymanalaiwah/react-native-android-installed-apps"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2",
+    "react-native-windows": "0.41.0-rc.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/progaymanalaiwah/react-native-android-installed-apps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/progaymanalaiwah/react-native-android-installed-apps/issues"
+  }
+}
