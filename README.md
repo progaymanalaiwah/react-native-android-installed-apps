@@ -29,14 +29,36 @@
   	```
 
 
+## Methods
+
+#### 1 - getApps()
+#### 2 - getNonSystemApps()
+#### 3 - getSystemApps()
+
+## Return Result 
+
+- packageName
+- versionName
+- versionCode
+- firstInstallTime
+- lastUpdateTime
+- appName
+- icon // Base64
+- apkDir
+- size // Bytes
 
 
 ## Usage
 ```javascript
 import RNAndroidInstalledApps from 'react-native-android-installed-apps';
 
-// TODO: What to do with the module?
-RNAndroidInstalledApps;
+
+RNAndroidInstalledApps.getApps()
+      .then(apps => {
+        this.setState({apps})
+      })
+      .catch(error => {
+        alert(error);
+      });
+
 ```
-  "# react-native-android-installed-apps-settings" 
-"# react-native-android-installed-apps" 
