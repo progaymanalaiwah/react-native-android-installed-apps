@@ -1,5 +1,6 @@
 {
   "name": "react-native-android-installed-apps",
+  "title": "React Native Android Installed Apps",
   "version": "1.0.0",
   "description": "API to retrieve installed  apps information  using native built-ins",
   "main": "index.js",
@@ -20,15 +21,20 @@
     "url": "https://github.com/progaymanalaiwah/react-native-android-installed-apps"
   },
   "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
   "peerDependencies": {
-    "react-native": "^0.41.2",
+    "react": "^16.8.1",
+    "react-native": ">=0.59.0-rc.0 <1.0.x",
     "react-native-windows": "0.41.0-rc.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/progaymanalaiwah/react-native-android-installed-apps.git"
+    "url": "git+https://github.com/progaymanalaiwah/react-native-android-installed-apps.git",
+    "baseUrl": "https://github.com/progaymanalaiwah/react-native-android-installed-apps"
   },
-  "bugs": {
-    "url": "https://github.com/progaymanalaiwah/react-native-android-installed-apps/issues"
+  "devDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.10"
   }
 }
